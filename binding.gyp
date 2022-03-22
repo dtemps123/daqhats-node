@@ -5,6 +5,7 @@
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "sources": [
+	"./src/daqhats_utils.c",
         "./src/mcc118_single_read.c",
         "./src/index.cpp"
       ],

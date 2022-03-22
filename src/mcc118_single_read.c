@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <daqhats/daqhats.h>
+#include "daqhats_utils.h"
 #include "mcc118_single_read.h"
 
 uint8_t address;
@@ -61,7 +67,7 @@ double* single_read(){
 
 	// Read a single value from each selected channel
 	int idx = 0;
-	for (ch = 0; ch < 8; ch++)
+	for (int ch = 0; ch < 8; ch++)
 	{
 	    result = mcc118_a_in_read(address, ch, options, &value);
 	    // STOP_ON_ERROR(result);
@@ -92,7 +98,7 @@ int main(){
 	double* vals;
 	setup();
 	vals = single_read();
-	for (ch = 0; ch < 8; ch++)
+	for (int ch = 0; ch < 8; ch++)
 	{
 	    printf("CH %i: val= %f\n",ch,vals[ch]);
 	}

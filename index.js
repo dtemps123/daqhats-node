@@ -1,6 +1,7 @@
 // const daqhats_module = require( './build/Release/daqhats-node.node' );
 const daqhats_module = require('bindings')('daqhats-node');
-exports.daqhats = daqhats_module.setup;
+//exports.daqhats = daqhats_module.setup;
+module.exports = daqhats_module;
 
 // console.log( 'exports : ', mcc118_module); console.log();
 

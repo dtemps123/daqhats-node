@@ -1,5 +1,5 @@
 {
-  "name": "nodejs_mcc118",
+  "name": "daqhats-node",
   "version": "1.0.0",
   "description": "Code to perform a single reading from the MCC-118 ADC using the daqhats compiled libraries",
   "main": "index.js",

@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "daqhats",
+      "target_name": "daqhats-node",
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "sources": [

@@ -1,4 +1,4 @@
-const mcc118_module = require( './build/Release/daqhats.node' );
+const mcc118_module = require( './build/Release/daqhats-node.node' );
 
 console.log( 'exports : ', mcc118_module); console.log();
 

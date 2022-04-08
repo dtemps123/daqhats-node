@@ -74,7 +74,7 @@ double* single_read(){
 	    ch_vals[idx] = value; idx++;
 	}
 
-	usleep(sample_interval * 1000);
+	// usleep(sample_interval * 1000);
 
 // stop:
 // 	printf("Error in single_read():\n");

@@ -14,7 +14,7 @@
       ],
       'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
       "libraries": [
-	"/usr/local/lib/libdaqhats.so.1.4.0.3"
+	"/usr/local/lib/libdaqhats.so.1"
       ]
     }
   ]
